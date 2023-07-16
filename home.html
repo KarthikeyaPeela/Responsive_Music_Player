@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Resposive Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<audio src="" id="audio"></audio>
+    <div class="musicPalyer">
+	
+	
+		<h1 class="music-name">Song One</h1>
+		<p class="artist-name">Artist</p>
+		<div class="disc play"></div>
+	
+		
+
+		<div class="song-slider">
+			<input type="range" value="0" class="seek-bar">
+			<span class="current-time">00:00</span>
+			<span class="song-duration">00:00</span>
+		</div>
+
+		<div class="controls">
+			<button class="btn backward-btn"><img src="songs/backward1.jpg"" alt="backward"></button>
+			
+			<button class="play-btn">
+				<span></span>
+				<span></span>
+			</button>
+			<button class="btn forward-btn"><img src="songs/forward.jpg"" alt="forward"></button>
+		</div>
+	
+	
+	</div>
+	<script src="songsdata.js"></script>
+	<script src="musicplayer.js"></script>
+</body>
+</html>
